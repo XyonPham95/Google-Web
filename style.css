@@ -1,0 +1,122 @@
+nav{
+    text-align: right;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-space{
+    margin-right: 10px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 100px;
+
+}
+
+section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.search-bar {
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: 15px;
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 15px;
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 1px 1px lightgrey;
+
+}
+
+
+
+.button-area {
+    margin-top: 20px;
+}
+
+.google-button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 15px;
+}
+
+
+
+.google-button:hover {
+    background-color: lightskyblue;
+}
+
+
+footer {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 85px;
+  background-color: whitesmoke;
+  
+}
+
+.footer1 {
+    text-decoration: none;
+    float: left;
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.footer1:hover{
+    text-decoration: underline;
+}
+
+.footer2 {
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.footer2:hover{
+    text-decoration: underline;
+}
+
+.search-logo{
+    position: absolute;
+    z-index: 10;
+    height: 20px;
+    left: 390px;
+    top: 255px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.VN{
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    margin-left: 5px;
+    
+}
