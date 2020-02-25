@@ -120,3 +120,7 @@ input:focus{
     margin-left: 5px;
     
 }
+
+body {
+    margin: 0;
+}
